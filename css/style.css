@@ -331,7 +331,7 @@ Nav bar CSS
 	bottom: 36px;
 	height: 2px;
 	width: 100%;
-	background: #3F3B90;
+	background: var(--primary-color);
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -361,11 +361,13 @@ Nav bar CSS
 }
 
 .hero-section .hero-text span {
+	display: flex;
 	font-size: 16px;
 	font-weight: bold;
 	color: var(--primary-color);
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	align-items: center;
 }
 
 .hero-section .hero-text h2 {
