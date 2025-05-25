@@ -16,8 +16,6 @@ Este repositório contém o código-fonte do site desenvolvido para o **I Semin�
 
 O seminário tem como objetivo promover o diálogo entre **profissionais, pesquisadores, professores e estudantes**, bem como **representantes do setor público e privado**, visando discutir as **potencialidades e desafios dos minerais estratégicos presentes no estado do Ceará**.
 
-Sua participação é essencial para o sucesso e enriquecimento do evento!
-
 ---
 
 ## 💻 Tecnologias Utilizadas
