@@ -107,7 +107,7 @@
     var timerdate = "2025/09/11";
 
 	$("#countdown").countdown(timerdate, function(event) {
-        $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Dias</p> </div>" + "<div class='cd-item'><span>%H</span> <p>Hrs</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Mins</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Segs</p> </div>"));
+        $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Dias</p> </div>"));
     });
 
 })(jQuery);
