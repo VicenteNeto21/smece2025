@@ -13,6 +13,7 @@ body {
 	height: 100%;
 	font-family: "Work Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	padding-top: 50px;
 }
 
 h1,
@@ -266,14 +267,35 @@ ol {
   Header
 -----------------------*/
 
-.header-section {
+/* .header-section {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+} */
+
+.header-section {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: var(--color-white);
+	-webkit-box-shadow: 0px 2px 10px rgba(11, 12, 48, 0.1);
+	box-shadow: 0px 2px 10px rgba(11, 12, 48, 0.1);
 }
 
 .header-section.header-normal {
 	border-bottom: 1px solid #e5e5e5;
+}
+
+/* ----------------------
+Iframe Youtube
+------------------------- */
+
+.iframe2{
+	height: 600px;
+    border-radius: 5px;
+    border: 5px solid var(--yellow-color);
 }
 
 /*---------------------
@@ -316,13 +338,13 @@ Nav bar CSS
 }
 
 .nav-menu .mainmenu ul li a {
-	font-size: 16px;
-	color: #171822;
-	text-transform: uppercase;
-	font-weight: 600;
-	padding: 42px 0;
-	position: relative;
-	display: inline-block;
+	font-size: 15px;
+    color: #171822;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 40px 0;
+    position: relative;
+    display: inline-block;
 }
 
 .nav-menu .mainmenu ul li a:after {
@@ -331,7 +353,7 @@ Nav bar CSS
 	bottom: 36px;
 	height: 2px;
 	width: 100%;
-	background: #3F3B90;
+	background: var(--yellow-color);
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -1855,6 +1877,17 @@ Nav bar CSS
 	.cc-text {
 		padding-top: 65px;
 	}
+
+	/* ----------------------
+	Iframe Youtube
+	------------------------- */
+
+	.iframe2{
+		height: 600px;
+		border-radius: 5px;
+		border: 5px solid var(--yellow-color);
+	}
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -2036,7 +2069,7 @@ Nav bar CSS
 	}
 
 	.slicknav_nav {
-		background: #3F3B90;
+		background: var(--secondary-color);
 		margin-bottom: 10px;
 	}
 
@@ -2055,13 +2088,13 @@ Nav bar CSS
 
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #f44949;
+		background: var(--yellow-color);
 		color: #ffffff;
 	}
 
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #f44949;
+		background: var(--yellow-color);
 		color: #ffffff;
 	}
 
@@ -2142,11 +2175,18 @@ Nav bar CSS
 		line-height: 35px;
 		margin-left: 5px;
 	}
+
+	iframe2{
+		height: 200px;
+		border-radius: 5px;
+		border: 5px solid var(--yellow-color);
+	}
+
 }
 
 
 .img-footer {
-	height: 4em;
+	height: 3em;
 }
 
 /* CSS para a seção de patrocinadores */
