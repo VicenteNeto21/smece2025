@@ -99,13 +99,13 @@ Não é necessário instalar dependências adicionais, pois todas as bibliotecas
 
 - [Vicente Neto](https://linktr.ee/vicente.neto)
 - [Maria Andrade](https://linktr.ee/maria.andrade)
+- [Luiz Germano](https://github.com/Luumano)
 
 ---
 
 ## 📲 Contato e Redes Sociais
 
-- Instagram do evento: [@mineraisestrategicosce](https://www.instagram.com/mineraisestrategicosce/)
-- Instagram da organização: [@fitcrateus](https://www.instagram.com/fitcrateus/)
+- Instagram do evento: [mineraisestrategicosce](https://www.instagram.com/mineraisestrategicosce/)
 
 ---
 
