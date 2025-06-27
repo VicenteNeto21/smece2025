@@ -105,7 +105,7 @@ Não é necessário instalar dependências adicionais, pois todas as bibliotecas
 
 ## 📲 Contato e Redes Sociais
 
-- Instagram do evento: [mineraisestrategicosce](https://www.instagram.com/mineraisestrategicosce/)
+- Instagram do evento: [mineraisestrategicosce](https://www.instagram.com/mineraisestrategicosce)
 
 ---
 
