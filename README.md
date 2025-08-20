@@ -1,32 +1,35 @@
-# SMECE 2025 - I Seminário de Minerais Estratégicos no Ceará
+# SMECE 2025 – 5º Encontro Estadual de Mineração & 1º Seminário de Minerais Estratégicos do Ceará
 
-Bem-vindo ao repositório do site oficial do **I Seminário de Minerais Estratégicos no Ceará (SMECE 2025)**. Este evento é promovido pela Universidade Federal do Ceará e tem como objetivo discutir a importância dos minerais estratégicos para o desenvolvimento do Ceará e do Brasil.
+Bem-vindo ao repositório oficial do **5º Encontro Estadual de Mineração e 1º Seminário de Minerais Estratégicos do Ceará (SMECE 2025)**!  
+Este evento, promovido pela Universidade Federal do Ceará, reúne especialistas, estudantes e profissionais para debater o papel dos minerais estratégicos no desenvolvimento do Ceará e do Brasil.
 
 ---
 
-## 📅 Sobre o Evento
+## 📅 Informações do Evento
 
-- **Nome:** I Seminário de Minerais Estratégicos no Ceará (SMECE 2025)
+- **Nome:** 5º Encontro Estadual de Mineração & 1º Seminário de Minerais Estratégicos do Ceará (SMECE 2025)
 - **Data:** 11 e 12 de setembro de 2025
-- **Local:** FIEC - Fortaleza, CE
+- **Local:** FIEC – Fortaleza, CE
 - **Organização:** Universidade Federal do Ceará
 
 ---
 
-## 🖥️ Sobre o Site
+## 🌐 Sobre o Site
 
-O site foi desenvolvido para divulgar informações do evento, como programação, local, patrocinadores, redes sociais e outras novidades. Ele é totalmente responsivo e utiliza tecnologias modernas de front-end.
+O site foi desenvolvido para centralizar todas as informações do evento, incluindo programação, local, apoiadores, redes sociais e novidades.  
+Totalmente responsivo, utiliza tecnologias modernas de front-end para melhor experiência do usuário.
 
 ### Funcionalidades
 
-- **Página inicial** com informações principais do evento
-- **Contagem regressiva** para o início do seminário
-- **Seção "Conheça o Evento"** com detalhes sobre o objetivo e público-alvo
-- **Podcast da Mineração** incorporado via YouTube
-- **Local do Evento** com mapa interativo do Google Maps
-- **Seção de Patrocinadores**
-- **Links para redes sociais**
-- **Rodapé institucional** com créditos e realização
+- Página inicial com informações principais do evento
+- Contagem regressiva para o início do seminário
+- Seção "Conheça o Evento" com detalhes sobre objetivos e público-alvo
+- Podcast da Mineração incorporado via YouTube
+- Local do evento com mapa interativo
+- Seção de patrocinadores e apoiadores institucionais
+- Links para redes sociais
+- Rodapé institucional com créditos e realização
+- **Template oficial de apresentação** disponível para download
 
 ---
 
@@ -79,7 +82,7 @@ smece2025/
    ```
 3. **Abra o arquivo `index.html` no seu navegador.**
 
-Não é necessário instalar dependências adicionais, pois todas as bibliotecas estão incluídas via arquivos locais ou CDN.
+> Não é necessário instalar dependências adicionais, pois todas as bibliotecas estão incluídas via arquivos locais ou CDN.
 
 ---
 
@@ -105,7 +108,7 @@ Não é necessário instalar dependências adicionais, pois todas as bibliotecas
 
 ## 📲 Contato e Redes Sociais
 
-- Instagram do evento: [mineraisestrategicosce](https://www.instagram.com/mineraisestrategicosce)
+- Instagram do evento: [@mineraisestrategicosce](https://www.instagram.com/mineraisestrategicosce)
 
 ---
 
@@ -115,4 +118,4 @@ Este projeto é de uso institucional e educacional. Para outros usos, entre em c
 
 ---
 
-Feito com muito ☕️ para a comunidade de mineração
+Feito com muito ☕️ para a comunidade de mineraçãoS
