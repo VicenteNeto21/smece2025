@@ -1,0 +1,756 @@
+<div class="row">
+                <div class="col-lg-12">
+                    <div class="schedule-tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#dia-1" role="tab">
+                                    <h5>Dia 1</h5>
+                                    <p>06 Nov</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#dia-2" role="tab">
+                                    <h5>Dia 2</h5>
+                                    <p>07 Nov</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#dia-3" role="tab">
+                                    <h5>Dia 3</h5>
+                                    <p>08 Nov</p>
+                                </a>
+                            </li>
+                        </ul><!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="dia-1" role="tabpanel">
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/logo-fit-evento.png" alt="logo do fit">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Abertura do Evento</h4>
+                                                    <ul>
+                                                        <li>Diretoria do Campus</li>
+                                                    </ul>
+                                                    <p>A abertura do FIT 2023 contará com a presença dos atuais diretores do Campus de Crateús <b>Sandro e Diones</b>, que estarão acompanhados pelos professores responsáveis pelo evento, <b>Rennan, Filipe e Rafael Martins</b>.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>08:00 - 09:00</div></li>
+                                                    <li> <div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Patio da UFC</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/maratona-programacao.png" alt="Maratona de Programação">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Maratona de Programação</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Zairo Bastos </li>
+                                                    </ul>
+                                                    <p>A maratona vai funcionar assim: desafios a serem resolvidos em tempo determinado. Desafie-se, teste suas habilidades e trabalhe em equipe para superar cada obstáculo.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>09:00 - 11:00</div></li>
+                                                    <li> <div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 02</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/games.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Almoço e Arena FIT Games</h4>
+                                                </div>
+                                                <p>É hora de relaxar e se divertir com jogos para trazer um momento de descontração durante o evento! Venha participar da Arena FIT Games, onde você poderá mostrar suas habilidades e se divertir com outros participantes..</p>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>11:00 - 13:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Hall do RU</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/wellington-lisieux-bruno.jpg" alt="Professores: Wellington Franco, Liseux Marinho e Bruno Honorato">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Mesa Redonda</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Professores: Wellington Franco, Liseux Marinho e Bruno Honorato</li>
+                                                    </ul>
+                                                    <p>Junte-se a esse painel de especialistas para uma discussão envolvente sobre como a otimização desempenha um papel crucial em nossas vidas cotidianas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>13:00 - 14:30</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Auditório</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/Elvis-Goncalves.jpg" alt="Elvis Goncalves">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Palestra sobre a importância do ELI (Ecossistema Local de Inovação)</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Elvis Gonçalves, Consultor credenciado ao Sebrae/CE</li>
+                                                    </ul>
+                                                    <p>Elvis Gonçalves é um especialista em Ecossistema Local de Inovação e traz insights valiosos sobre como esse ecossistema pode impactar positivamente a inovação local. Não perca a chance de aprender com uma experiência profissional!</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>15:30 - 16:30</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Auditório</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/games.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Jantar e Arena FIT Games</h4>
+                                                </div>
+                                                <p>É hora de relaxar e se divertir com jogos para trazer um momento de descontração durante o evento! Venha participar da Arena FIT Games, onde você poderá mostrar suas habilidades e se divertir com outros participantes..</p>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>16:00 - 18:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Patio da UFC</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/quiz-tech.png" alt="QuizTech">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>QuizTech</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Gustavo</li>
+                                                    </ul>
+                                                    <p>Teste suas habilidades e conhecimentos sobre o FIT e suas atividades. Este é um quiz individual, e a inscrição é na hora! Responda às perguntas e ganhe pontos para conquistar prêmios incríveis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>18:00 - 18:45</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Auditório</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                 <div class="sc-pic">
+                                                    <img src="img/palestrantes/Joao-Isaac.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Oficina de Sensoriamento Ambiental e Agricultura de Precisão</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> João Isaac Silva Miranda</li>
+                                                    </ul>
+                                                    <p>Junte-se a nós para aprender sobre como maximizar a eficiência e sustentabilidade na agropecuária do Semiárido com o uso de sensores. Este é o futuro da agricultura!</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>19:00 - 21:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 02</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/filipe.jpg" alt="Professor Filipe Fernandes">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>I Coding Dojo do Campus de Crateús
+                                                    </h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Prof. Filipe Fernandes </li>
+                                                    </ul>
+                                                    <p>Coding Dojo é uma técnica de aprendizado e prática de programação que envolve programadores, iniciantes e avançados, trabalhando juntos para aprender ou melhorar suas habilidades por meio da resolução de problemas de programação. O termo "dojo" é emprestado das artes marciais e sugere um local de treinamento intensivo. Nesse evento, os participantes se reunirão, em pares, para trabalhar em alguns desafios de programação, enquanto a platéia observa e fornece feedbacks e sugere melhorias ao final de cada desafio solucionado. Se você tem um conhecimento mesmo que mínimo em POO/Python e deseja aprofundar suas habilidades em colaboração com outros desenvolvedores, junte-se a nós neste evento incrível!</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>19:00 - 21:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 03</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/Patrick-Alcantara.jpg" alt="Patrick Alcantara">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Oficina sobre Otimização em projetos web</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Prof. Patrick Alcântara</li>
+                                                    </ul>
+                                                    <p>Patrick Alcântara, graduado em Telemática e com experiência de 8 anos no ensino, vai compartilhar seus conhecimentos em desenvolvimento web e otimização de projetos. Não perca essa oportunidade de aprimorar suas habilidades!</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>19:00 - 21:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 04</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="dia-2" role="tabpanel">
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/games.png" alt="Logo dos jogos">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Almoço e Arena FIT Games</h4>
+                                                    <p>É hora de relaxar e se divertir com jogos para trazer um momento de descontração durante o evento! Venha participar da Arena FIT Games, onde você poderá mostrar suas habilidades e se divertir com outros participantes.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>11:15 - 13:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Patio da UFC</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/Raimundo-Filho.jpg" alt="Presidente da FUNCAP">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Fomentando a Pesquisa Científica e Tecnológica como Pilar do Desenvolvimento Regiona</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Raimundo Filho</li>
+                                                    </ul>
+                                                    <p>Nessa palestra vamos falar sobre os investimentos da Funcap no Estado do Ceará ao longo do tempo e discutir as perspectivas de investimentos na ciência, na inovação pública e privada.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>13:00 - 14:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Auditório</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/andre-luiz.png" alt="Andre e Luiz juntos">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Debate sobre a Otimização em um Contexto Geral</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> André Meireles e Luiz Alberto</li>
+                                                    </ul>
+                                                    <p>Junte-se a André Meireles e Luiz Alberto para uma discussão enriquecedora sobre otimização em diversos contextos. Aprenda com especialistas e participe do diálogo!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>14:15 - 15:30</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Patio da UFC</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/paulo-henrique.jpg" alt="Paulo Henrique">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>O Problema de Classificação Geodésica em Grafos</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Paulo Henrique</li>
+                                                    </ul>
+                                                    <p>Nesta palestra, mergulharemos na abordagem do Problema de Classificação Geodésica em Grafos, uma versão discreta de um desafio clássico. Descubra como esse conceito inovador pode ser aplicado em áreas como recomendação de conteúdos, diagnósticos e classificação de textos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>16:00 - 17:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Auditório</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/games.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Jantar e Arena FIT Games</h4>
+                                                </div>
+                                                <p>É hora de relaxar e se divertir com jogos para trazer um momento de descontração durante o evento! Venha participar da Arena FIT Games, onde você poderá mostrar suas habilidades e se divertir com outros participantes..</p>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>17:00 - 18:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Hall do RU</div></li>
+                                                    <li><i class="fa fa-clock-o"></i> </li>
+                                                    <li><i class="fa fa-map-marker"></i> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/logo-fit-evento.png" alt="Logo do evento">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Momento Inovação</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Professores: Italo, Renato Arnaldo e aluna Lais </li>
+                                                    </ul>
+                                                    <p>Amostra de games, startups e projetos que podem se tornar futuramente empresas...</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>18:00 - 18:45</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Patio da UFC</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/pablo-soares.jpg" alt="Pablo Soares">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Minicurso: Maximizando Seus Conhecimentos em Otimização e Grafos
+                                                    </h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Prof. Pablo Soares</li>
+                                                    </ul>
+                                                    <p>Neste minicurso, você terá a chance de explorar conceitos fundamentais da modelagem matemática em Grafos e aprender a implementá-los em Python, com a ajuda do pacote Python-MIP. Essa é uma oportunidade única para aprimorar seus conhecimentos e enfrentar desafios clássicos no mundo da otimização.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>19:00 - 21:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 02</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/Victor-Martins.jpg" alt="Victor Martins">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>SonarQube: uma ferramenta para otimização de código</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Victor Martins - Desenvolvedor Back-end</li>
+                                                    </ul>
+                                                    <p>A palestra explorará o papel vital do SonarQube na otimização de código, projetos e qualidade de software. Em um mundo onde a demanda por software de alta qualidade é inegável, o SonarQube se destaca como uma ferramenta essencial para desenvolvedores e equipes de desenvolvimento.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>19:00 - 21:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 03</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/palestrantes/aguiar.jpg" alt="Aluno Aguiar Junior">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Minicurso de Problem Solving</h4>
+                                                    <ul>
+                                                        <li><i class="fa fa-user"></i> Aguiar Junior</li>
+                                                    </ul>
+                                                    <p>A abordagem criativa para solucionar problemas complexos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>19:00 - 21:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Laboratorio 04</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="dia-3" role="tabpanel">
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/games.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Almoço e Arena FIT</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>11:15 - 13:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Hall do RU</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/logo-fit-evento.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Acolhida com Estudante de Novo oriente</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>13:00 - 14:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span> Auditorio </div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/logo-fit-evento.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>QuizTech</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>14:15 - 14:40</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span> Auditorio </div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/logo-fit-evento.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Minicurso de Robótica</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>15:00 - 16:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span> Lab 50 </div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/banda-fit.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Encerramento do FIT 2023</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>15:00 - 16:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Pátio UFC</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="st-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="sc-pic">
+                                                    <img src="img/programacao/games.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="sc-text">
+                                                    <h4>Jantar e Arena FIT Games</h4>
+                                                </div>
+                                                <p>É hora de relaxar e se divertir com jogos para trazer um momento de descontração durante o evento! Venha participar da Arena FIT Games, onde você poderá mostrar suas habilidades e se divertir com outros participantes..</p>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <ul class="sc-widget">
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">schedule</span>16:00 - 18:00</div></li>
+                                                    <li><div id="schedule-icons"><span class="material-symbols-outlined">location_on</span>Hall do RU</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/galeto-mania.jpg" alt="Galeto Mania">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/planet.png" alt="Planet">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/tina-mix.jpg" alt="Tina Mix">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/Sebrae.svg" alt="Sebrae">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/panus-grafica.jpg" alt="Grafica Panus">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/ascom-contabilidade.jpg" alt="Ascom contabilidade">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/corretores.png" alt="liliane Abreu e Gustavo">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/whm-comercio.jpg" alt="Comercio WHM">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/solar-engenharia.png" alt="Solar Engenharia">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="single-patrocinador">
+                        <a href="#">
+                            <div class="box">
+                                <img src="img/patrocinadores/corretores2.jpg" alt="Gustavo Abreu">
+                            </div>
+                        </a>
+                    </div>
+                </div> -->
+            </div>
