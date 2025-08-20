@@ -13,4 +13,4 @@ tabButtons.forEach((button, index) => {
     button.addEventListener('click', function(){
         update(index);
     });
-});
+}); 

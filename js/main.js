@@ -27,7 +27,7 @@
     });
 
     /*------------------------
-		Partner Slider
+		Partner Slider (Não usado, mantido para compatibilidade)
     ----------------------- */
     $(".partner-logo").owlCarousel({
         items: 6,
@@ -37,26 +37,16 @@
         smartSpeed: 1200,
         margin: 116,
         responsive: {
-            320: {
-                items: 2,
-            },
-            480: {
-                items: 3,
-            },
-            768: {
-                items: 4,
-            },
-            992: {
-                items: 5,
-            },
-            1200: {
-                items: 6
-            }
+            320: { items: 2 },
+            480: { items: 3 },
+            768: { items: 4 },
+            992: { items: 5 },
+            1200: { items: 6 }
         }
     });
 
     /*------------------------
-		Testimonial Slider
+		Testimonial Slider (Não usado, mantido para compatibilidade)
     ----------------------- */
     $(".testimonial-slider").owlCarousel({
         items: 2,
@@ -67,12 +57,8 @@
         nav: true,
         navText: ["<span class='fa fa-angle-left'></span>", "<span class='fa fa-angle-right'></span>"],
         responsive: {
-            320: {
-                items: 1,
-            },
-            768: {
-                items: 2
-            }
+            320: { items: 1 },
+            768: { items: 2 }
         }
     });
 
@@ -86,28 +72,9 @@
     /*------------------
         CountDown
     --------------------*/
-    // For demo preview
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    var yyyy = today.getFullYear();
-
-    if(mm == 12) {
-        mm = '01';
-        yyyy = yyyy + 1;
-    } else {
-        mm = parseInt(mm) + 1;
-        mm = String(mm).padStart(2, '0');
-    }
-    var timerdate = mm + '/' + dd + '/' + yyyy;
-    // For demo preview end
-    
-
-    // Use this for real timer date
     var timerdate = "2025/09/11";
-
-	$("#countdown").countdown(timerdate, function(event) {
-        $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Dias</p> </div>"));
+    $("#countdown").countdown(timerdate, function(event) {
+        $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Dias</p> "));
     });
 
 })(jQuery);
