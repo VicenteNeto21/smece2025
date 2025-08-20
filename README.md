@@ -118,4 +118,4 @@ Este projeto é de uso institucional e educacional. Para outros usos, entre em c
 
 ---
 
-Feito com muito ☕️ para a comunidade de mineração
+Feito com muito ☕️ para a comunidade de mineraçãoS
