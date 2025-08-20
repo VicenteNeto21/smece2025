@@ -100,6 +100,7 @@ smece2025/
 
 ## 👨‍💻 Autores
 
+   Feito com muito ☕️:
 - [Vicente Neto](https://linktr.ee/vicente.neto)
 - [Maria Andrade](https://linktr.ee/maria.andrade)
 - [Luiz Germano](https://github.com/Luumano)
@@ -115,7 +116,3 @@ smece2025/
 ## 📝 Licença
 
 Este projeto é de uso institucional e educacional. Para outros usos, entre em contato com os autores.
-
----
-
-Feito com muito ☕️ para a comunidade de mineraçãoS
