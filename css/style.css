@@ -790,7 +790,7 @@ hr {
 }
 
 .box {
-  width: 180px;
+  width: 250px;
   height: 140px;
   border-radius: 6px;
   background-color: var(--white);
