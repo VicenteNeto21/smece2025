@@ -15,9 +15,9 @@ html,
 body {
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding-top: 50px;
   box-sizing: border-box;
   margin: 0;
+  margin-top: 50px;
   overflow-x: hidden;
 }
 
