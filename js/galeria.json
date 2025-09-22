@@ -26,5 +26,26 @@
         "thumbPath": "./img/galeria/photo01.jpg",
         "alt": "Foto 4 do evento",
         "credits": "Laura Guerreiro"
+    },
+        {
+        "id": 5,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 3 do evento",
+        "credits": "Laura Guerreiro"
+    },
+        {
+        "id": 6,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 3 do evento",
+        "credits": "Laura Guerreiro"
+    },
+        {
+        "id": 7,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 3 do evento",
+        "credits": "Laura Guerreiro"
     }
 ]

@@ -80,11 +80,13 @@
     // ---
     // NOVO CÓDIGO PARA CARREGAR A GALERIA DE FOTOS
     // ---
-    $(document).ready(function() {
+        $(document).ready(function() {
         const jsonUrl = 'js/galeria.json';
-        const galeriaContainer = $('#galeria-fotos');
-        
-        if (galeriaContainer.length) {
+        const galeriaContainerIndex = $('#galeria-fotos-index');
+        const galeriaContainerFull = $('#galeria-fotos');
+
+        // Carregar e exibir a galeria na página inicial (limitado a 6)
+        if (galeriaContainerIndex.length) {
             fetch(jsonUrl)
                 .then(response => {
                     if (!response.ok) {
@@ -93,15 +95,15 @@
                     return response.json();
                 })
                 .then(data => {
-                    const isHomePage = $('body').hasClass('homepage');
-                    const photosToDisplay = isHomePage ? data.slice(0, 6) : data;
+                    // Limita a 6 fotos na página inicial
+                    const photosToDisplay = data.slice(0, 6);
 
                     let htmlContent = '';
                     photosToDisplay.forEach(photo => {
                         htmlContent += `
                             <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
                                 <figure class="gallery-photo">
-                                    <a href="${photo.path}" data-lightbox="gallery-smece" data-title="Créditos: ${photo.credits}">
+                                    <a href="${photo.path}" data-lightbox="galeria-smece" data-title="Créditos: ${photo.credits}">
                                         <img src="${photo.thumbPath}" alt="${photo.alt}" class="img-fluid">
                                     </a>
                                     <figcaption class="photo-credits">
@@ -112,12 +114,45 @@
                         `;
                     });
 
-                    galeriaContainer.html(htmlContent);
-                    
+                    galeriaContainerIndex.html(htmlContent);
                 })
                 .catch(error => {
                     console.error('Houve um problema com a operação fetch:', error);
-                    galeriaContainer.html('<p>Não foi possível carregar as fotos no momento. Por favor, tente novamente mais tarde.</p>');
+                    galeriaContainerIndex.html('<p>Não foi possível carregar as fotos no momento. Por favor, tente novamente mais tarde.</p>');
+                });
+        }
+
+        // Carregar e exibir a galeria completa na página de galeria
+        if (galeriaContainerFull.length) {
+            fetch(jsonUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao carregar o JSON: ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    let htmlContent = '';
+                    data.forEach(photo => { // Exibe todas as fotos
+                        htmlContent += `
+                            <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                                <figure class="gallery-photo">
+                                    <a href="${photo.path}" data-lightbox="galeria-smece" data-title="Créditos: ${photo.credits}">
+                                        <img src="${photo.thumbPath}" alt="${photo.alt}" class="img-fluid">
+                                    </a>
+                                    <figcaption class="photo-credits">
+                                        Créditos: ${photo.credits}
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        `;
+                    });
+
+                    galeriaContainerFull.html(htmlContent);
+                })
+                .catch(error => {
+                    console.error('Houve um problema com a operação fetch:', error);
+                    galeriaContainerFull.html('<p>Não foi possível carregar as fotos no momento. Por favor, tente novamente mais tarde.</p>');
                 });
         }
     });
