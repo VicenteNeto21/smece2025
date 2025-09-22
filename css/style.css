@@ -657,6 +657,136 @@ ol {
   color: var(--primary-color);
 }
 
+/* Galeria de Fotos */
+.gallery-section {
+    padding: 80px 0;
+    background-color: var(--background-white);
+}
+
+.gallery-section .secao-titulo {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.gallery-section .secao-titulo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item a {
+    display: block;
+    overflow: hidden;
+}
+
+.gallery-item a:hover img {
+    transform: scale(1.05);
+}
+
+.primary-btn-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.primary-btn-link:hover {
+    background-color: #3754e9; /* Cor um pouco mais escura no hover */
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.primary-btn-link .material-symbols-outlined {
+    font-size: 20px;
+    margin-left: 10px;
+    transition: margin-left 0.3s;
+}
+
+.gallery-item a {
+    position: relative; /* O contêiner de link agora é posicionado de forma relativa */
+    display: block;
+    overflow: hidden;
+}
+
+.gallery-photo {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #f8f9fa; /* Fundo leve para separar a imagem */
+}
+
+.gallery-photo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a legenda (créditos) */
+.photo-credits {
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    text-align: left;
+    padding: 9px 5px;
+}
+
+/* Remover o estilo do 'gallery-item a' anterior, pois a nova estrutura não o usa mais */
+.gallery-item a {
+    display: block;
+    overflow: hidden;
+}
+
+.gallery-item a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item a:hover img {
+    transform: scale(1.05);
+}
+
 .button-configs {
   text-align: center;
   margin-top: 5px;
@@ -765,6 +895,7 @@ ol {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 15px;
 }
 
 .section-spacing h4 {
@@ -1034,6 +1165,10 @@ hr {
   transform: scale(1.1);
 }
 
+.gallery-item {
+  margin-bottom: 20px;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -1077,6 +1212,9 @@ hr {
     max-height: 100%;
     border-radius: 10px;
     border: none;
+}
+.gallery-item {
+  margin-bottom: 20px;
 }
 }
 
@@ -1147,4 +1285,7 @@ hr {
     text-align: center;
     justify-content: center;
   }
+  .gallery-item {
+  margin-bottom: 20px;
+}
 }

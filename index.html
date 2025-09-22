@@ -34,6 +34,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css" type="text/css">
+
+    <!-- Lightbox JS -->
+    <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -57,6 +61,7 @@
                         <li><a href="/">Início</a></li>
                         <li><a href="#conhecaevento">Conheça o Evento</a></li>
                         <li><a href="#programacaoEvento">Programação</a></li>
+                        <li><a href="#galeriaFotos">Galeria</a></li> 
                         <li><a href="#localevento">Local do Evento</a></li>
                         <li><a href="#apoiadores">Apoiadores</a></li>
                     </ul>
@@ -74,7 +79,7 @@
         </div>
     </header>
     <!-- Header End -->
-
+     
     <!-- Hero Section Begin -->
     <section class="hero-section set-bg" data-setbg="img/fundo-2.png">
         <div class="container">
@@ -425,6 +430,29 @@
     </section>
     <!-- Template Section End -->
 
+    <!-- Galeria de Fotos Section Begin -->
+        <section class="gallery-full-page-section spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1 class="secao-titulo">Galeria Completa</h1>
+                    </div>
+                </div>
+                <div class="row" id="galeria-fotos">
+                
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        <a href="galeria.html" class="primary-btn-link">
+                            Mostrar Mais
+                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Galeria de Fotos Section End -->
+
     <!-- Local do Evento Section Begin -->
     <section id="localevento" class="location-section">
         <div class="container">
@@ -528,6 +556,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/galeria.json"></script>
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
