@@ -19,15 +19,15 @@
     });
 
     /*------------------
-		Navigation
-	--------------------*/
+        Navigation
+    --------------------*/
     $(".mobile-menu").slicknav({
         prependTo: '#mobile-menu-wrap',
         allowParentLinks: true
     });
 
     /*------------------------
-		Partner Slider (Não usado, mantido para compatibilidade)
+        Partner Slider (Não usado, mantido para compatibilidade)
     ----------------------- */
     $(".partner-logo").owlCarousel({
         items: 6,
@@ -46,7 +46,7 @@
     });
 
     /*------------------------
-		Testimonial Slider (Não usado, mantido para compatibilidade)
+        Testimonial Slider (Não usado, mantido para compatibilidade)
     ----------------------- */
     $(".testimonial-slider").owlCarousel({
         items: 2,
@@ -75,6 +75,51 @@
     var timerdate = "2025/09/11";
     $("#countdown").countdown(timerdate, function(event) {
         $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Dias</p> "));
+    });
+
+    // ---
+    // NOVO CÓDIGO PARA CARREGAR A GALERIA DE FOTOS
+    // ---
+    $(document).ready(function() {
+        const jsonUrl = 'js/galeria.json';
+        const galeriaContainer = $('#galeria-fotos');
+        
+        if (galeriaContainer.length) {
+            fetch(jsonUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao carregar o JSON: ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const isHomePage = $('body').hasClass('homepage');
+                    const photosToDisplay = isHomePage ? data.slice(0, 6) : data;
+
+                    let htmlContent = '';
+                    photosToDisplay.forEach(photo => {
+                        htmlContent += `
+                            <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+                                <figure class="gallery-photo">
+                                    <a href="${photo.path}" data-lightbox="gallery-smece" data-title="Créditos: ${photo.credits}">
+                                        <img src="${photo.thumbPath}" alt="${photo.alt}" class="img-fluid">
+                                    </a>
+                                    <figcaption class="photo-credits">
+                                        Créditos: ${photo.credits}
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        `;
+                    });
+
+                    galeriaContainer.html(htmlContent);
+                    
+                })
+                .catch(error => {
+                    console.error('Houve um problema com a operação fetch:', error);
+                    galeriaContainer.html('<p>Não foi possível carregar as fotos no momento. Por favor, tente novamente mais tarde.</p>');
+                });
+        }
     });
 
 })(jQuery);

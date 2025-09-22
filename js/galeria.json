@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 1 do evento",
+        "credits": "Laura Guerreiro"
+    },
+    {
+        "id": 2,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 2 do evento",
+        "credits": "Laura Guerreiro"
+    },
+    {
+        "id": 3,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 3 do evento",
+        "credits": "Laura Guerreiro"
+    },
+    {
+        "id": 4,
+        "path": "./img/galeria/photo01.jpg",
+        "thumbPath": "./img/galeria/photo01.jpg",
+        "alt": "Foto 4 do evento",
+        "credits": "Laura Guerreiro"
+    }
+]
